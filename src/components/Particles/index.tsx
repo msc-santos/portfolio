@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import type { Container, Engine } from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { themeColors } from "src/styles/theme";
+import { themeColorsParticles } from "src/styles/theme";
 
 const ParticlesComponent = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
@@ -19,7 +19,7 @@ const ParticlesComponent = () => {
                 fullScreen: false,
                 background: {
                     color: {
-                        value: themeColors.palette.primary,
+                        value: themeColorsParticles.palette.primary,
                     },
                 },
                 fpsLimit: 120,
@@ -47,10 +47,10 @@ const ParticlesComponent = () => {
                 },
                 particles: {
                     color: {
-                        value: themeColors.palette.white,
+                        value: themeColorsParticles.palette.white,
                     },
                     links: {
-                        color: themeColors.palette.white,
+                        color: themeColorsParticles.palette.white,
                         distance: 150,
                         enable: true,
                         opacity: 0.5,

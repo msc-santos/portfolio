@@ -1,19 +1,15 @@
-import { Button, Stack, Toolbar, Typography } from '@mui/material';
-import { themeColors } from 'src/styles/theme';
+import { Button, Stack, Toolbar, Typography, useTheme } from '@mui/material';
 
 export default function Header() {
 
+  const theme = useTheme()
+
   return (
-    <Toolbar style={{ 
-      backgroundColor: themeColors.palette.secondary, 
-      position: 'fixed', 
-      top: 0, 
-      width: '100%', 
-    }}>
-        <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div">
+    <Toolbar id='toolbar' sx={{ background: theme.palette.primary.light }}>
+        <Typography variant="h6">
             Icone
         </Typography>
-        <Stack direction="row" spacing={2} style={{ marginRight: 50 }}>
+        <Stack direction="row" spacing={2}>
           <Button href="#home" color='secondary'>Home</Button>
           <Button href="#about" color='secondary'>About</Button>
           <Button href="#skills" color='secondary'>Skills</Button>

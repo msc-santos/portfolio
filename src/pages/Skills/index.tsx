@@ -1,10 +1,11 @@
-import { Typography } from "@mui/material";
-import { themeColors } from "src/styles/theme";
+import { Typography, useTheme } from "@mui/material";
 
 export default function Skills() {
+  const theme = useTheme()
+
   return (
     <section id="skills" className="box-content">
-      <Typography variant="h3" style={{ color: themeColors.palette.white, textAlign: 'center' }}>
+      <Typography variant="h3" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
         Skills
       </Typography>
       <div>
