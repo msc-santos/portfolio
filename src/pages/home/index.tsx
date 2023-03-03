@@ -1,16 +1,28 @@
 import { Typography } from "@mui/material";
-
-import './styles.css'
+import Typewriter from 'typewriter-effect';
 
 function Home() {
-    return (
-      <section id='title-presentation-section'>
-        <Typography id='title-presentation' variant="h3" color='secondary'>
-          Hello, i am <strong>Marcos</strong>, nice to meet you. 👋🏼
-        </Typography>
-      </section>
-    );
-  }
-  
-  export default Home;
+
+  return (
+    <section id="home" className='box-content'>
+      <Typography variant="h3" color='secondary'>
+        Hello, i am Marcos, nice to meet you!
+      </Typography>
+      <Typography variant="h4" color='secondary'>
+        <Typewriter
+          onInit={(typewriter) => {
+            typewriter.typeString('I am a frontend software engineer, and mobile software engineer!')
+              .callFunction(() => {})
+              .pauseFor(2500)
+              .deleteAll()
+              .callFunction(() => {})
+              .start();
+          }}
+        />
+      </Typography>
+    </section>
+  );
+}
+
+export default Home;
   

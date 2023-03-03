@@ -15,8 +15,8 @@ const ParticlesComponent = () => {
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
-            height="100vh" width="100vw"
             options={{
+                fullScreen: false,
                 background: {
                     color: {
                         value: themeColors.palette.primary,

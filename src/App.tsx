@@ -2,10 +2,12 @@
 // https://github.com/mayankagarwal09/dev-portfolio 
 // possible logo and favicon: https://icons8.com/icon/WgWwZwRLfZsr/face
 
-import { Grid } from "@mui/material";
+import { Container, Grid } from "@mui/material";
 import Header from "src/components/Header";
 import ParticlesComponent from "src/components/Particles";
-import Home from "./pages/home";
+import About from "src/pages/About";
+import Home from "src/pages/home";
+import Skills from "src/pages/Skills";
 
 function App() {
     return (
@@ -14,9 +16,13 @@ function App() {
             <div style={{ position: "absolute" }} >
               <ParticlesComponent />
             </div>
-            <div style={{ position: "relative" }} >
+            <div style={{ position: "relative", width: '100%' }} >
                 <Header />
                 <Home />
+                <Container>
+                  <About />
+                  <Skills />
+                </Container>
             </div>
           </Grid>
         </Grid>
