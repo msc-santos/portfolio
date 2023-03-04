@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 function Home() {
 
   return (
-    <section id="home" className='box-content'>
+    <section id="home" className='box-content-home'>
       <Typography variant="h3" color='secondary'>
         Hello, i am Marcos, nice to meet you!
       </Typography>

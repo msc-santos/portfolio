@@ -1,4 +1,4 @@
-import { Typography, useTheme } from "@mui/material";
+import { Typography, Grid, useTheme, Container } from "@mui/material";
 
 export default function About() {
   const theme = useTheme()
@@ -8,10 +8,16 @@ export default function About() {
       <Typography variant="h3" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
         About
       </Typography>
-      <div>
-        <div>Texto</div>
-        <div>Imagem</div>
-      </div>
+      <Container>
+        <Grid container className='box-grid' spacing={4}>
+          <Grid item xs={12} sm={12} md={6} lg={6}>
+            <Typography variant="h3" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
+              Texto
+            </Typography>
+          </Grid>
+          <Grid item xs={12} sm={12} md={6} lg={6}>IMG</Grid>
+        </Grid>
+      </Container>
     </section>
   )
 }
