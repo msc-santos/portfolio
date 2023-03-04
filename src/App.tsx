@@ -1,14 +1,18 @@
 // bases: 
 // https://github.com/mayankagarwal09/dev-portfolio 
-// possible logo and favicon: https://icons8.com/icon/WgWwZwRLfZsr/face
 
 import { Container, Grid, useTheme } from "@mui/material";
-import Header from "src/components/Header";
 import ParticlesComponent from "src/components/Particles";
-import About from "src/pages/About";
-import Home from "src/pages/home";
-import Skills from "src/pages/Skills";
+import Header from "src/components/Header";
 import DrawerComponent from "src/components/Drawer";
+
+import Home from "src/pages/Home";
+import About from "src/pages/About";
+import Skills from "src/pages/Skills";
+import Education from "src/pages/Education";
+import Expirience from "src/pages/Expirience";
+import Projects from "src/pages/Projects";
+import TalkToMe from "src/pages/TalkToMe";
 
 function App() {
   const theme = useTheme()
@@ -21,11 +25,15 @@ function App() {
           </div>
           <div className='grid-app-content'>
               <Header />
+              <DrawerComponent />
               <Home />
               <Container>
                 <About />
                 <Skills />
-                <DrawerComponent />
+                <Education />
+                <Expirience />
+                <Projects />
+                <TalkToMe />
               </Container>
           </div>
         </Grid>

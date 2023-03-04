@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { AppBar, Button, Container, Grid, IconButton, Menu, MenuItem, Stack, Toolbar, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { AppBar, Button, Container, Grid, IconButton, Stack, Toolbar, useMediaQuery, useTheme } from '@mui/material';
 import { NavBar } from 'src/interfaces/NavBar';
 import { optionsMenu } from 'src/constant/options'
 
@@ -7,6 +6,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 
 import useMenu from 'src/hooks/useMenu';
+
+// import Logo from 'src/assets/logo.png'
 
 export default function Header() {
   const { open, handleOpen } = useMenu()
@@ -20,9 +21,11 @@ export default function Header() {
         <Container>
           <Grid container>
             <Grid item xs={11} sm={11} md={5} lg={5}>
-              <Typography variant="h6">
-                Icone
-              </Typography>
+              {/* <img
+                src={Logo}
+                alt='logo'
+              /> */}
+              Logo
             </Grid>
             <Grid item xs={1} sm={1} md={7} lg={7}>
               {!isMobile ? <Stack direction="row" spacing={2}>
