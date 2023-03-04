@@ -8,6 +8,7 @@ import ParticlesComponent from "src/components/Particles";
 import About from "src/pages/About";
 import Home from "src/pages/home";
 import Skills from "src/pages/Skills";
+import DrawerComponent from "src/components/Drawer";
 
 function App() {
   const theme = useTheme()
@@ -24,6 +25,7 @@ function App() {
               <Container>
                 <About />
                 <Skills />
+                <DrawerComponent />
               </Container>
           </div>
         </Grid>
