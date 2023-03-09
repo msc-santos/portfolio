@@ -1,6 +1,6 @@
 import { Typography, Grid, useTheme, Container } from "@mui/material";
 
-import ImageAbout from 'src/assets/about-img.png'
+import ImageAbout from 'src/assets/images/about-img.png'
 import textsPages from 'src/constant/textsPages.json'
 
 export default function About() {

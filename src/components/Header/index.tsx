@@ -7,7 +7,7 @@ import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 
 import useMenu from 'src/hooks/useMenu';
 
-// import Logo from 'src/assets/logo.png'
+import Logo from 'src/assets/images/logo.png'
 
 export default function Header() {
   const { open, handleOpen } = useMenu()
@@ -21,11 +21,10 @@ export default function Header() {
         <Container>
           <Grid container>
             <Grid item xs={11} sm={11} md={5} lg={5}>
-              {/* <img
+              <img
                 src={Logo}
                 alt='logo'
-              /> */}
-              Logo
+              />
             </Grid>
             <Grid item xs={1} sm={1} md={7} lg={7}>
               {!isMobile ? <Stack direction="row" spacing={2}>
