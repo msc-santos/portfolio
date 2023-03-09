@@ -33,7 +33,7 @@ code {
 }
 
 .box-grid {
-  padding: 10%;
+  padding: 5%;
 }
 
 .grid-app-content-ts-particles {
@@ -50,4 +50,14 @@ code {
 
 .d-row-flex {
   display: flex;
+}
+
+.about-image {
+  height: 65%;
+}
+
+@media only screen and (min-width: 1023px) {
+  .about-image {
+    height: 100%;
+  }
 }
