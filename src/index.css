@@ -56,6 +56,11 @@ code {
   height: 65%;
 }
 
+.skill-icons {
+  max-width: 66px;
+  max-height: auto;
+}
+
 @media only screen and (min-width: 1023px) {
   .about-image {
     height: 100%;

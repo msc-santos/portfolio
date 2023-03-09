@@ -14,7 +14,7 @@ export default function About() {
       <Container>
         <Grid container className='box-grid' spacing={4}>
           <Grid item xs={12} sm={12} md={6} lg={6}>
-            <Typography variant="h6" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
+            <Typography variant="h5" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
               {textsPages.about.text}
             </Typography>
           </Grid>
