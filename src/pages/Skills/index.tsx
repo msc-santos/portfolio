@@ -11,7 +11,7 @@ export default function Skills() {
   return (
     <section id="skills" className="box-content">
       <Typography variant="h3" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
-        Skills
+      {textsPages.skills.title}
       </Typography>
       <Container>
         <Grid container className='box-grid' spacing={4}>

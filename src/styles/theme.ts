@@ -1,6 +1,17 @@
 import { createTheme } from '@mui/material/styles';
 
+import type { } from '@mui/lab/themeAugmentation';
+
 export const theme = createTheme({
+    components: {
+        MuiTimeline: {
+            styleOverrides: {
+                root: {
+                    backgroundColor: '#0d1117'
+                }
+            }
+        }
+    },
     palette: {
         primary: {
             light: '#161b22',

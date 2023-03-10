@@ -1,17 +1,21 @@
-import { Typography, useTheme } from "@mui/material";
+import { Container, Grid, Typography, useTheme } from "@mui/material";
+import CustomizedTimeline from "src/components/TimeLine";
+
+import textsPages from 'src/constant/textsPages.json'
 
 export default function Education() {
   const theme = useTheme()
 
   return (
     <section id="education" className="box-content">
-      <Typography variant="h3" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
-        Education
+     <Typography variant="h3" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
+        {textsPages.education.title}
       </Typography>
-      <div>
-        <div>Texto</div>
-        <div>Imagem</div>
-      </div>
+      <Container>
+        <Grid container className='box-grid' spacing={4}>
+          <CustomizedTimeline />
+        </Grid>
+      </Container>
     </section>
   )
 }

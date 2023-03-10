@@ -9,7 +9,7 @@ export default function About() {
   return (
     <section id="about" className="box-content">
       <Typography variant="h3" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
-        About
+        {textsPages.about.title}
       </Typography>
       <Container>
         <Grid container className='box-grid' spacing={4}>
