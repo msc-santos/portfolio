@@ -8,6 +8,8 @@
   },
   "skills": {
     "text": "I love technologys, and i am be aways learns new things. These is some technologys i work.",
-    "technology_frontend": "Technologys useds from frontend: "
+    "languages": "Programming and Markup languages: ",
+    "frameworks_technologies": "Frameworks & Technologies: ",
+    "tools_latforms": "Databases, Tools & Platforms: "
   }
 }
