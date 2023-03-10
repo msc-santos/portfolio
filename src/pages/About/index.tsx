@@ -17,6 +17,10 @@ export default function About() {
             <Typography variant="h5" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
               {textsPages.about.text}
             </Typography>
+            <br />
+            <Typography variant="h5" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
+              {textsPages.about['sub-text']}
+            </Typography>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6}>
             <img src={ImageAbout} alt="image_screen_about_me" className='about-image' />
