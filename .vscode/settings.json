@@ -1,21 +1,53 @@
 {
-  // Define o tema do VSCode
-  "workbench.colorTheme":"Dracula",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "eslint.format.enable": true,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "files.eol": "\n",
+  "editor.formatOnSave": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "razor": "html",
+    "plaintext": "pug"
+  },
+  "editor.snippetSuggestions": "top",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
 
-  // Configura tamanho e família da fonte
-  "editor.fontSize":16,
-  "editor.fontFamily":"Fira Code",
-  "editor.fontLigatures":true,
+  // Controls if quick suggestions should show up while typing
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
 
-  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
-  "editor.rulers": [
-    80,
-    120
-  ],
+  // Controls whether suggestions should be accepted on commit characters. For example, in JavaScript, the semi-colon (`;`) can be a commit character that accepts a suggestion and types that character.
+  "editor.acceptSuggestionOnCommitCharacter": true,
 
-  // Aplica um sinal visual na esquerda da linha selecionada
-  "editor.renderLineHighlight":"gutter",
+  // Controls if suggestions should be accepted on 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions. The value 'smart' means only accept a suggestion with Enter when it makes a textual change
+  "editor.acceptSuggestionOnEnter": "on",
 
-  // Define o tema dos ícones na sidebar
-  "workbench.iconTheme":"material-icon-theme"
+  // Controls the delay in ms after which quick suggestions will show up.
+  "editor.quickSuggestionsDelay": 10,
+
+  // Controls if suggestions should automatically show up when typing trigger characters
+  "editor.suggestOnTriggerCharacters": true,
+
+  // Controls if pressing tab inserts the best suggestion and if tab cycles through other suggestions
+  "editor.tabCompletion": "off",
+
+  // Controls whether sorting favours words that appear close to the cursor
+  "editor.suggest.localityBonus": true,
+
+  // Controls how suggestions are pre-selected when showing the suggest list
+  "editor.suggestSelection": "first",
+
+  // Enable word based suggestions
+  "editor.wordBasedSuggestions": true,
+
+  // Enable parameter hints
+  "editor.parameterHints.enabled": true,
 }
