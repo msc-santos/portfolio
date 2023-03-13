@@ -15,6 +15,8 @@ export default function Header() {
   const theme = useTheme()
   const isMobile = useMediaQuery(theme.breakpoints.down("md"))
 
+  // TODO: O Menu marcado deve ficar destacado com cor diferente
+
   return (
     <AppBar position="fixed">
       <Toolbar sx={{ background: theme.palette.primary.light }}>

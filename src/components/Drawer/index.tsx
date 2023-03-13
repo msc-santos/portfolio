@@ -13,6 +13,8 @@ export default function DrawerComponent() {
   const { open, handleClose } = useMenu()
 	const theme = useTheme()
 
+	// TODO: O Menu marcado deve ficar destacado com cor diferente
+
   return (
     <Drawer
 			anchor='left'
