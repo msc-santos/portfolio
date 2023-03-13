@@ -32,6 +32,10 @@ code {
   padding-top: 6%;
 }
 
+.box-content-big {
+  height: 120vh;
+}
+
 .box-grid {
   padding: 5%;
 }
