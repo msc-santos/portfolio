@@ -18,8 +18,8 @@ export const optionsMenu: Array<NavBar> = [
         path: '#education'
     },
     {
-        label: 'Expirience',
-        path: '#expirience'
+        label: 'Experience',
+        path: '#experiences'
     },
     {
         label: 'Projects',

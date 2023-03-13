@@ -28,5 +28,28 @@
       "date": "2021 - 2023",
       "where": "FMU Natal, RN, Brazil"
     }
+  },
+  "Experiences": {
+    "title": "Experiences",
+    "card_one": {
+      "title": "Junior programmer and It Support",
+      "date": "2016 - 2018",
+      "where": "at the Grupo Morada company from October 17th, 2016 up to October 05th, 2018"
+    },
+    "card_two": {
+      "title": "Full Stack developer",
+      "date": "2018 - 2020",
+      "where": "at the Economy Software company from December 10th, 2018 up to January 24th, 2020"
+    },
+    "card_three": {
+      "title": "Full Stack developer",
+      "date": "2020 - 2022",
+      "where": "at the Grupo Morada company from July 20th, 2020 up to April 29th, 2022"
+    },
+    "card_four": {
+      "title": "Frontend developer",
+      "date": "2022 - moment",
+      "where": " since may 5th, 2022 up to at the moment"
+    }
   }
 }

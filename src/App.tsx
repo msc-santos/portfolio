@@ -12,7 +12,7 @@ import Home from "src/pages/Home";
 import About from "src/pages/About";
 import Skills from "src/pages/Skills";
 import Education from "src/pages/Education";
-import Expirience from "src/pages/Expirience";
+import Experiences from "src/pages/Experiences";
 import Projects from "src/pages/Projects";
 import TalkToMe from "src/pages/TalkToMe";
 
@@ -33,7 +33,7 @@ function App() {
                 <About />
                 <Skills />
                 <Education />
-                <Expirience />
+                <Experiences />
                 <Projects />
                 <TalkToMe />
               </Container>
