@@ -1,34 +1,22 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-import textsPages from 'src/constant/textsPages.json'
+import { iCustomizedTimeline } from 'src/interfaces/TimeLine'
 
-export default function CustomizedTimeline() {
-  // TODO: finalizar essa tela 
+export default function CustomizedTimeline({ contentTimeLine }: any) {
   return (
     <VerticalTimeline>
-      <VerticalTimelineElement
+      {contentTimeLine.map((item: iCustomizedTimeline) => <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: '#7356b5', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  #7356b5' }}
-        date={textsPages.education.card_two.date}
+        date={item.date}
         iconStyle={{ background: '#7356b5', color: '#fff' }}
       >
-        <h3 className="vertical-timeline-element-title">{textsPages.education.card_two.title}</h3>
+        <h3 className="vertical-timeline-element-title">{item.title}</h3>
         <br />
-        <h4 className="vertical-timeline-element-subtitle">{textsPages.education.card_two.where}</h4>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        contentStyle={{ background: '#7356b5', color: '#fff' }}
-        contentArrowStyle={{ borderRight: '7px solid  #7356b5' }}
-        date={textsPages.education.card_one.date}
-        iconStyle={{ background: '#7356b5', color: '#fff' }}
-      >
-        <h3 className="vertical-timeline-element-title">{textsPages.education.card_one.title}</h3>
-        <br />
-        <h4 className="vertical-timeline-element-subtitle">{textsPages.education.card_one.where}</h4>
-      </VerticalTimelineElement>
+        <h4 className="vertical-timeline-element-subtitle">{item.where}</h4>
+      </VerticalTimelineElement>)}
     </VerticalTimeline>
   );
 }
