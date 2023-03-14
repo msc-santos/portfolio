@@ -102,5 +102,18 @@
         "github": "https://github.com/msc-santos/detection_object"
       }
     ]
+  },
+  "TalkToMe": {
+    "title": "Talk to me",
+    "button": "Send",
+    "borderRadius": 2,
+    "borderTop": 5,
+    "sizeIcons": "50",
+    "send": {
+      "title": "Send a message.",
+      "title_secondary": "Pages to contact.",
+      "text": "If you want to chat with me, don't hesitate to send me a message.",
+      "text_secondary": "You can find me in these social medias."
+    }
   }
 }
