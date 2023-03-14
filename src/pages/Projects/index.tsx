@@ -5,9 +5,6 @@ import textsPages from 'src/constant/textsPages.json'
 export default function Projects() {
   const theme = useTheme()
 
-  // TODO: Iseir projetos do meu gitHub e o projeto do portfolio tmb 
-  // TODO: Inserir informação caso o projeto não esteja publicado ou não tenha acesso ao github 
-
   return (
     <section id="projects" className="box-content">
       <Typography variant="h3" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>

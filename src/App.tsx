@@ -1,7 +1,3 @@
-// bases: 
-// https://github.com/mayankagarwal09/dev-portfolio 
-
-
 import { Container, Grid, useTheme } from "@mui/material";
 
 import ParticlesComponent from "src/components/Particles";
