@@ -6,7 +6,7 @@ export default function Experiences() {
   const theme = useTheme()
 
   return (
-    <section id="experiences" className="box-content box-content-experiences">
+    <section id="experiences" className="box-content">
        <Typography variant="h3" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
         {textsPages.Experiences.title}
       </Typography>

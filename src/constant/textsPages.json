@@ -58,6 +58,8 @@
   },
   "Projects": {
     "title": "Projects",
+    "button_project": "View Project",
+    "button_git": "View GitHub",
     "projects": [
       {
         "title": "Website of ticket printing",
@@ -88,6 +90,16 @@
         "chips": ["Vue-JS", "Laravel", "netlify", "Git", "GitLab"],
         "link_project": "https://escala-app.netlify.app/login",
         "github": ""
+      },
+      {
+        "title": "App detection object",
+        "description": "App to detect table objects, I used tensorflow with flutter to develop the app.",
+        "image": "smartphone.png",
+        "alt": "detection app",
+        "size": "200",
+        "chips": ["Dart", "Flutter", "TensorFlow", "Git", "GitHub"],
+        "link_project": "",
+        "github": "https://github.com/msc-santos/detection_object"
       }
     ]
   }
