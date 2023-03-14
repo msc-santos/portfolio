@@ -18,38 +18,77 @@
   },
   "education": {
     "title": "Education",
-    "card_one": {
-      "title": "Graduate in system analysis and developer",
-      "date": "2014 - 2016",
-      "where": "Estácio Natal, RN, Brazil"
-    },
-    "card_two": {
-      "title": "Postgraduate in mobile applications system developer - in progress",
-      "date": "2021 - 2023",
-      "where": "FMU Natal, RN, Brazil"
-    }
+    "values": [
+      {
+        "title": "Graduate in system analysis and developer",
+        "date": "2014 - 2016",
+        "where": "Estácio Natal, RN, Brazil"
+      },
+      {
+        "title": "Postgraduate in mobile applications system developer - in progress",
+        "date": "2021 - 2023",
+        "where": "FMU Natal, RN, Brazil"
+      }
+    ]
   },
   "Experiences": {
     "title": "Experiences",
-    "card_one": {
-      "title": "Junior programmer and It Support",
-      "date": "2016 - 2018",
-      "where": "at the Grupo Morada company from October 17th, 2016 up to October 05th, 2018"
-    },
-    "card_two": {
-      "title": "Full Stack developer",
-      "date": "2018 - 2020",
-      "where": "at the Economy Software company from December 10th, 2018 up to January 24th, 2020"
-    },
-    "card_three": {
-      "title": "Full Stack developer",
-      "date": "2020 - 2022",
-      "where": "at the Grupo Morada company from July 20th, 2020 up to April 29th, 2022"
-    },
-    "card_four": {
-      "title": "Frontend developer",
-      "date": "2022 - moment",
-      "where": " since may 5th, 2022 up to at the moment"
-    }
+    "values": [
+      {
+        "title": "Junior programmer and It Support",
+        "date": "2016 - 2018",
+        "where": "at the Grupo Morada company from October 17th, 2016 up to October 05th, 2018"
+      },
+      {
+        "title": "Full Stack developer",
+        "date": "2018 - 2020",
+        "where": "at the Economy Software company from December 10th, 2018 up to January 24th, 2020"
+      },
+      {
+        "title": "Full Stack developer",
+        "date": "2020 - 2022",
+        "where": "at the Grupo Morada company from July 20th, 2020 up to April 29th, 2022"
+      },
+      {
+        "title": "Frontend developer",
+        "date": "2022 - moment",
+        "where": " since may 5th, 2022 up to at the moment"
+      }
+    ]
+  },
+  "Projects": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Website of ticket printing",
+        "description": "This is a project that I developed together with my co-workers, where it is possible for a client to access the site, and informing their contract data or CPF, issues their bill for the month.",
+        "image": "segunda_via.png",
+        "alt": "ticket printing",
+        "size": "200",
+        "chips": ["Javascript", "React", "Node", "Express", "AWS", "Git", "GitHub"],
+        "link_project": "https://servicos.moradadapaz.com.br/segundavia",
+        "github": ""
+      },
+      {
+        "title": "Web GM",
+        "description": "WebGM is a system that I developed together with my co-workers, it is a system intended for internal use by employees of the company, with it it is possible for each employee to log in and access their environment of work.",
+        "image": "wgm.png",
+        "alt": "Web GM",
+        "size": "170",
+        "chips": ["Javascript", "React", "Node", "Express", "AWS", "Git", "GitHub", "PostgreSQL"],
+        "link_project": "https://webgm.moradadapaz.com.br/signin",
+        "github": ""
+      },
+      {
+        "title": "Notation",
+        "description": "Notation app, developed in partnership with the company Cout, it has the purpose of managing the entire scale of professionals of a company",
+        "image": "escala_app_2.png",
+        "alt": "Notation app",
+        "size": "170",
+        "chips": ["Vue-JS", "Laravel", "netlify", "Git", "GitLab"],
+        "link_project": "https://escala-app.netlify.app/login",
+        "github": ""
+      }
+    ]
   }
 }
