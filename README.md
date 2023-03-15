@@ -6,7 +6,7 @@
   Portfólio criado para publicar meus projetos e os projetos em que participei ao longo de minha carreira.
 </h4>
 
-<h4 align="center"><a href="https://marcos1710.github.io/index.html">Clique aqui, para visitar.</a></h4>
+<h4 align="center"><a href="https://github.com/msc-santos.github.io/portfolio">Clique aqui, para visitar.</a></h4>
 
 ## 📚 Seções
 

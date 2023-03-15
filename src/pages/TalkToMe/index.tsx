@@ -19,7 +19,10 @@ export default function TalkToMe() {
     }, 5000);
   }
 
-  // TODO: A mensagem não está aparecendo 
+  // TODO: A mensagem de enviado não está aparecendo 
+  // TODO: Inserir o arquivo de constante no .gitignore e preencher os dados via arquivo inserído no github pages 
+  // TODO: Ajustar o readme 
+  // TODO: Inserir os links nas consts 
 
   return (
     <section id="talk_to_me" className="box-content">
@@ -36,9 +39,9 @@ export default function TalkToMe() {
               {textsPages.TalkToMe.send.text}
             </Typography>
             <Box component="form" noValidate autoComplete="off">
-              <form action="https://formsubmit.co/marcossamuel17@gmail.com" method="POST" onSubmit={showMessage}>
+              <form action={textsPages.link_send_email} method="POST" onSubmit={showMessage}>
                 <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_next" value="http://localhost:3000/#talk_to_me" />
+                <input type="hidden" name="_next" value={textsPages.link_site} />
                 <TextField 
                   id="id-name" 
                   name="name"
