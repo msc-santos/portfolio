@@ -1,6 +1,5 @@
-import { Typography, Grid, useTheme, Container } from "@mui/material";
+import { Typography, Grid, useTheme, Container, CardMedia } from "@mui/material";
 
-import ImageAbout from 'src/assets/images/about-img.png'
 import textsPages from 'src/constant/textsPages.json'
 
 export default function About() {
@@ -12,7 +11,7 @@ export default function About() {
         {textsPages.about.title}
       </Typography>
       <Container>
-        <Grid container className='box-grid' spacing={4}>
+        <Grid container spacing={4}>
           <Grid item xs={12} sm={12} md={6} lg={6}>
             <Typography variant="h5" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
               {textsPages.about.text}
@@ -23,7 +22,12 @@ export default function About() {
             </Typography>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6}>
-            <img src={ImageAbout} alt="image_screen_about_me" className='about-image' />
+            <CardMedia
+              component="img"
+              alt="image_screen_about_me"
+              image='/about-img.png'
+              className="about-image"
+            />
           </Grid>
         </Grid>
       </Container>

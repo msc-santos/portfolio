@@ -1,14 +1,25 @@
-import { Typography, Grid, useTheme, Container, Box, TextField, Button } from "@mui/material";
+import { Typography, Grid, useTheme, Container, Box, TextField, Button, Alert } from "@mui/material";
 import textsPages from 'src/constant/textsPages.json'
 
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import SendIcon from '@mui/icons-material/Send';
+import { useState } from "react";
 
 export default function TalkToMe() {
   const theme = useTheme()
 
-  // TODO: nesessário criar função de envio para meu email e mostrar uma mensagem quando enviar 
+  const [message, setMessage] = useState<string>('')
+
+  const showMessage = () => {
+    setMessage('Message send with success!')
+
+    setTimeout(() => {
+      setMessage('')
+    }, 5000);
+  }
+
+  // TODO: A mensagem não está aparecendo 
 
   return (
     <section id="talk_to_me" className="box-content">
@@ -25,7 +36,9 @@ export default function TalkToMe() {
               {textsPages.TalkToMe.send.text}
             </Typography>
             <Box component="form" noValidate autoComplete="off">
-              <form action="https://formsubmit.co/marcossamuel17@gmail.com" method="POST">
+              <form action="https://formsubmit.co/marcossamuel17@gmail.com" method="POST" onSubmit={showMessage}>
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_next" value="http://localhost:3000/#talk_to_me" />
                 <TextField 
                   id="id-name" 
                   name="name"
@@ -55,11 +68,13 @@ export default function TalkToMe() {
                   multiline
                   fullWidth 
                   required
-                  sx={{ background: theme.palette.primary.contrastText, border: 'none', borderRadius: textsPages.TalkToMe.borderRadius, borderTop: textsPages.TalkToMe.borderTop }} 
+                  sx={{ background: theme.palette.primary.contrastText, border: 'none', borderRadius: textsPages.TalkToMe.borderRadius, borderTop: textsPages.TalkToMe.borderTop, borderBottom: textsPages.TalkToMe.borderTop }} 
                 />
-                <br />
-                <br />
-                <Button type="submit" variant="contained" color="secondary" endIcon={<SendIcon />}>{textsPages.TalkToMe.button}</Button>
+                
+                {message !== '' 
+                  ? <Alert severity="success">{message}</Alert> 
+                  : <Button fullWidth type="submit" variant="contained" color="secondary" endIcon={<SendIcon />}>{textsPages.TalkToMe.button}</Button>
+                }
               </form>
             </Box>
           </Grid>

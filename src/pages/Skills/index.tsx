@@ -10,7 +10,7 @@ export default function Skills() {
   const theme = useTheme()
 
   return (
-    <section id="skills" className="box-content">
+    <section id="skills">
       <Typography variant="h3" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
       {textsPages.skills.title}
       </Typography>
