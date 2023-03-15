@@ -1,6 +1,7 @@
-import { Typography, Grid, useTheme, Container, CardMedia } from "@mui/material";
+import { Typography, Grid, useTheme, Container } from "@mui/material";
 
 import textsPages from 'src/constant/textsPages.json'
+import AboutImage from 'src/assets/images/about-img.png'
 
 export default function About() {
   const theme = useTheme()
@@ -22,12 +23,7 @@ export default function About() {
             </Typography>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6}>
-            <CardMedia
-              component="img"
-              alt="image_screen_about_me"
-              image='/about-img.png'
-              className="about-image"
-            />
+            <img src={AboutImage} alt="image_screen_about_me" className="about-image" />
           </Grid>
         </Grid>
       </Container>

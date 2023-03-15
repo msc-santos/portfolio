@@ -11,7 +11,7 @@ export default function TalkToMe() {
 
   const { showMessage } = useMessage()
 
-  // TODO: Deploy da aplicação 
+  // TODO: verificar se é possível inserir o json no gitignore mas ao rodar o deploy as informações que estão lá serem pegas 
   // TODO: Inserir o novo link do github do portofolio nas minhas redes sociais e currículo 
 
   return (
