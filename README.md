@@ -6,15 +6,16 @@
   Portfólio criado para publicar meus projetos e os projetos em que participei ao longo de minha carreira.
 </h4>
 
-<h4 align="center"><a href="https://github.com/msc-santos.github.io/portfolio">Clique aqui, para visitar.</a></h4>
+<h4 align="center"><a href="https://msc-santos.github.io/portfolio">Clique aqui, para visitar.</a></h4>
 
 ## 📚 Seções
 
-- **Home:** Uma breve apresentação sobre mim;
-- **Formações:** Uma breve descrição dos meus títulos;
+- **Home:** Página inicial do site;
+- **About** Uma breve descrição sobre mim
 - **Skiils:** Mostra um pouco das minhas habilidades;
+- **Formações:** Uma breve descrição dos meus títulos;
+- **Experiências** Um pouco da minha trajetoria profissional 
 - **Projetos:** Apresenta alguns projetos em que participei no desenvolvimento;
-- **Cursos:** Alguns cursos que já fiz ao longo da minha carreira;
 - **Fale comigo:** Onde você pode falar comigo por um dos meios de comunicação;
 
 ---
@@ -26,6 +27,8 @@ No desenvolvimento do site utilizei as seguintes tecnologias:
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/docs/)
 - [Material-UI](https://mui.com/)
+- [react-tsparticles](https://www.npmjs.com/package/react-tsparticles)
+- [react-vertical-timeline-component](https://www.npmjs.com/package/react-vertical-timeline-component)
 
 ---
 

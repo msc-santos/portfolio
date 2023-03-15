@@ -19,11 +19,6 @@ export default function TalkToMe() {
     }, 5000);
   }
 
-  // TODO: A mensagem de enviado não está aparecendo 
-  // TODO: Inserir o arquivo de constante no .gitignore e preencher os dados via arquivo inserído no github pages 
-  // TODO: Ajustar o readme 
-  // TODO: Inserir os links nas consts 
-
   return (
     <section id="talk_to_me" className="box-content">
       <Typography variant="h3" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>

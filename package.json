@@ -1,7 +1,7 @@
 {
   "name": "my_portfolio",
   "version": "0.1.0",
-  "página inicial": "https://github.com/msc-santos.github.io/portfolio",
+  "página inicial": "https://msc-santos.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
