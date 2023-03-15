@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.58e86c80.css",
-    "main.js": "/portfolio/static/js/main.ed4f46db.js",
+    "main.css": "/portfolio/static/css/main.9b820b72.css",
+    "main.js": "/portfolio/static/js/main.2a066258.js",
+    "static/media/about-img.png": "/portfolio/static/media/about-img.d8a19749729a3c5ddb5c.png",
     "static/media/roboto-all-500-normal.woff": "/portfolio/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/portfolio/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/portfolio/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
@@ -49,11 +50,11 @@
     "static/media/icons8-css3.svg": "/portfolio/static/media/icons8-css3.db7dfd1247623e1e9223d8ef28a37432.svg",
     "static/media/icons8-flutter.svg": "/portfolio/static/media/icons8-flutter.abac82fcf95d97934ee7d58ecc7ad203.svg",
     "static/media/icons8-vue-js.svg": "/portfolio/static/media/icons8-vue-js.6d7684efd638278d1af0d12e903b4e18.svg",
-    "main.58e86c80.css.map": "/portfolio/static/css/main.58e86c80.css.map",
-    "main.ed4f46db.js.map": "/portfolio/static/js/main.ed4f46db.js.map"
+    "main.9b820b72.css.map": "/portfolio/static/css/main.9b820b72.css.map",
+    "main.2a066258.js.map": "/portfolio/static/js/main.2a066258.js.map"
   },
   "entrypoints": [
-    "static/css/main.58e86c80.css",
-    "static/js/main.ed4f46db.js"
+    "static/css/main.9b820b72.css",
+    "static/js/main.2a066258.js"
   ]
 }
