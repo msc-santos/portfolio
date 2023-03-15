@@ -11,6 +11,7 @@ import Education from "src/pages/Education";
 import Experiences from "src/pages/Experiences";
 import Projects from "src/pages/Projects";
 import TalkToMe from "src/pages/TalkToMe";
+import Modal from "src/components/Modal";
 
 function App() {
   const theme = useTheme()
@@ -34,6 +35,7 @@ function App() {
                 <TalkToMe />
               </Container>
           </div>
+          <Modal />
         </Grid>
       </Grid>
     );
