@@ -31,8 +31,7 @@ export default function TalkToMe() {
             <Box component="form" noValidate autoComplete="off">
               <form action={textsPages.link_send_email} method="POST">
                 <input type="hidden" name="_captcha" value="false" />
-                {/* <input type="hidden" name="_next" value={textsPages.link_site} /> */}
-                <input type="hidden" name="_next" value="http://localhost:3000/" />
+                <input type="hidden" name="_next" value={textsPages.link_site} />
                 <TextField 
                   id="id-name" 
                   name="name"
