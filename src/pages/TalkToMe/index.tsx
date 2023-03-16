@@ -11,9 +11,6 @@ export default function TalkToMe() {
 
   const { showMessage } = useMessage()
 
-  // TODO: verificar se é possível inserir o json no gitignore mas ao rodar o deploy as informações que estão lá serem pegas 
-  // TODO: Inserir o novo link do github do portofolio nas minhas redes sociais e currículo 
-
   return (
     <section id="talk_to_me" className="box-content">
       <Typography variant="h3" className='text-center' sx={{ color: theme.palette.primary.contrastText }}>
