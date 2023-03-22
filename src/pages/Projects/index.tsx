@@ -6,7 +6,8 @@ import Project_one from 'src/assets/images/segunda_via.png'
 import Project_two from 'src/assets/images/wgm.png'
 import Project_three from 'src/assets/images/escala_app_2.png'
 import Project_four from 'src/assets/images/smartphone.png'
-import Project_five from 'src/assets/images/dark_portfolio.png'
+import Project_five from 'src/assets/images/mobile_application.png'
+import Project_six from 'src/assets/images/dark_portfolio.png'
 
 export default function Projects() {
   const theme = useTheme()
@@ -18,6 +19,7 @@ export default function Projects() {
   data[2].image = Project_three
   data[3].image = Project_four
   data[4].image = Project_five
+  data[5].image = Project_six
 
   return (
     <section id="projects" className="box-content">

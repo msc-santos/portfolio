@@ -106,6 +106,16 @@
         "github": "https://github.com/msc-santos/detection_object"
       },
       {
+        "title": "Sellers Morada da paz App",
+        "description": "Application that I developed together with coworkers, for sales simulations of company consultants.",
+        "image": "smartphone.png",
+        "alt": "sellers app",
+        "size": "200",
+        "chips": ["Dart", "Flutter", "Git", "GitHub", "Play Console"],
+        "link_project": "https://play.google.com/store/apps/details?id=br.com.moradadapaz.moradaconsultants&hl=pt-br",
+        "github": ""
+      },
+      {
         "title": "Dark Portfolio React",
         "description": "Portfolio created for those who wish to have their publication site without too many changes.",
         "image": "dark_portfolio.png",
