@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9b820b72.css",
-    "main.js": "/portfolio/static/js/main.cbebc763.js",
+    "main.js": "/portfolio/static/js/main.7ccf00d4.js",
     "static/media/dark_portfolio.png": "/portfolio/static/media/dark_portfolio.f26d7c2e6ff2426cd28e.png",
     "static/media/smartphone.png": "/portfolio/static/media/smartphone.b3b7104306b29ad9cd6e.png",
     "static/media/about-img.png": "/portfolio/static/media/about-img.d8a19749729a3c5ddb5c.png",
@@ -11,6 +11,7 @@
     "static/media/roboto-all-400-normal.woff": "/portfolio/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
     "static/media/roboto-all-300-normal.woff": "/portfolio/static/media/roboto-all-300-normal.168d6383e73339293ac3.woff",
     "static/media/escala_app_2.png": "/portfolio/static/media/escala_app_2.cb696462f1dd19556aee.png",
+    "static/media/mobile_application.png": "/portfolio/static/media/mobile_application.0bee9ac9ac476e5d21a5.png",
     "static/media/roboto-latin-500-normal.woff2": "/portfolio/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/portfolio/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
     "static/media/roboto-latin-400-normal.woff2": "/portfolio/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
@@ -56,10 +57,10 @@
     "static/media/icons8-flutter.svg": "/portfolio/static/media/icons8-flutter.abac82fcf95d97934ee7d58ecc7ad203.svg",
     "static/media/icons8-vue-js.svg": "/portfolio/static/media/icons8-vue-js.6d7684efd638278d1af0d12e903b4e18.svg",
     "main.9b820b72.css.map": "/portfolio/static/css/main.9b820b72.css.map",
-    "main.cbebc763.js.map": "/portfolio/static/js/main.cbebc763.js.map"
+    "main.7ccf00d4.js.map": "/portfolio/static/js/main.7ccf00d4.js.map"
   },
   "entrypoints": [
     "static/css/main.9b820b72.css",
-    "static/js/main.cbebc763.js"
+    "static/js/main.7ccf00d4.js"
   ]
 }
