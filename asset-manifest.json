@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9b820b72.css",
-    "main.js": "/portfolio/static/js/main.7ccf00d4.js",
+    "main.js": "/portfolio/static/js/main.e6465b77.js",
     "static/media/dark_portfolio.png": "/portfolio/static/media/dark_portfolio.f26d7c2e6ff2426cd28e.png",
     "static/media/smartphone.png": "/portfolio/static/media/smartphone.b3b7104306b29ad9cd6e.png",
     "static/media/about-img.png": "/portfolio/static/media/about-img.d8a19749729a3c5ddb5c.png",
@@ -12,6 +12,7 @@
     "static/media/roboto-all-300-normal.woff": "/portfolio/static/media/roboto-all-300-normal.168d6383e73339293ac3.woff",
     "static/media/escala_app_2.png": "/portfolio/static/media/escala_app_2.cb696462f1dd19556aee.png",
     "static/media/mobile_application.png": "/portfolio/static/media/mobile_application.0bee9ac9ac476e5d21a5.png",
+    "static/media/nestjs-svgrepo-com.svg": "/portfolio/static/media/nestjs-svgrepo-com.5c16d6d8994596f01f0c491576bdbd3f.svg",
     "static/media/roboto-latin-500-normal.woff2": "/portfolio/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/portfolio/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
     "static/media/roboto-latin-400-normal.woff2": "/portfolio/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
@@ -41,26 +42,23 @@
     "static/media/icons8-postgreesql.svg": "/portfolio/static/media/icons8-postgreesql.84a20d91af9c25dc780e0a1111dd7cf2.svg",
     "static/media/icons8-amazon-web-services.svg": "/portfolio/static/media/icons8-amazon-web-services.42cf784955c53485e60b1a2fff84b1af.svg",
     "static/media/icons8-nodejs.svg": "/portfolio/static/media/icons8-nodejs.1261604a312daacb8beea3b733fba76c.svg",
+    "static/media/nextjs-svgrepo-com.svg": "/portfolio/static/media/nextjs-svgrepo-com.20d8ec316406f97cfc0fab9048f30c0b.svg",
+    "static/media/java-svgrepo-com.svg": "/portfolio/static/media/java-svgrepo-com.3d1f1777f72c1a4ca3003a5378491322.svg",
     "static/media/roboto-greek-ext-500-normal.woff2": "/portfolio/static/media/roboto-greek-ext-500-normal.6fb9cffb1d3e72bf9293.woff2",
     "static/media/roboto-greek-ext-400-normal.woff2": "/portfolio/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "static/media/roboto-greek-ext-300-normal.woff2": "/portfolio/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/portfolio/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
-    "static/media/icons8-logo-php.svg": "/portfolio/static/media/icons8-logo-php.f9093364e2909eeb50fed1fd6afedf29.svg",
     "static/media/icons8-nativo-de-reagir.svg": "/portfolio/static/media/icons8-nativo-de-reagir.9235e8f8e2b73d394801330aba87511f.svg",
     "index.html": "/portfolio/index.html",
-    "static/media/icons8-express-js.svg": "/portfolio/static/media/icons8-express-js.9761670f523e0f3fc7d7b0e5dda00415.svg",
+    "static/media/spring-boot-svgrepo-com.svg": "/portfolio/static/media/spring-boot-svgrepo-com.0789fc82615a841ba8603596a7fd3ec4.svg",
     "static/media/icons8-javascript.svg": "/portfolio/static/media/icons8-javascript.fabe1e9b193a5b86c7467a70ba5d736a.svg",
     "static/media/icons8-git.svg": "/portfolio/static/media/icons8-git.9e5efe4a58d251d445603088a1667119.svg",
     "static/media/icons8-typescript.svg": "/portfolio/static/media/icons8-typescript.5f24f697e9f29c44f3a48af9f4c628d1.svg",
-    "static/media/icons8-dart.svg": "/portfolio/static/media/icons8-dart.87b6f2c4b4725d7023dfa0da351365e2.svg",
-    "static/media/icons8-css3.svg": "/portfolio/static/media/icons8-css3.db7dfd1247623e1e9223d8ef28a37432.svg",
-    "static/media/icons8-flutter.svg": "/portfolio/static/media/icons8-flutter.abac82fcf95d97934ee7d58ecc7ad203.svg",
-    "static/media/icons8-vue-js.svg": "/portfolio/static/media/icons8-vue-js.6d7684efd638278d1af0d12e903b4e18.svg",
     "main.9b820b72.css.map": "/portfolio/static/css/main.9b820b72.css.map",
-    "main.7ccf00d4.js.map": "/portfolio/static/js/main.7ccf00d4.js.map"
+    "main.e6465b77.js.map": "/portfolio/static/js/main.e6465b77.js.map"
   },
   "entrypoints": [
     "static/css/main.9b820b72.css",
-    "static/js/main.7ccf00d4.js"
+    "static/js/main.e6465b77.js"
   ]
 }
