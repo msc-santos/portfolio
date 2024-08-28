@@ -12,6 +12,7 @@ import Experiences from "src/pages/Experiences";
 import Projects from "src/pages/Projects";
 import TalkToMe from "src/pages/TalkToMe";
 import Modal from "src/components/Modal";
+import GitHubProjects from "./pages/GithubProjects";
 
 function App() {
   const theme = useTheme()
@@ -32,6 +33,7 @@ function App() {
                 <Education />
                 <Experiences />
                 <Projects />
+                <GitHubProjects />
                 <TalkToMe />
               </Container>
           </div>

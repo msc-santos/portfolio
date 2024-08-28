@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import { Button, Card, CardActions, CardContent, CardMedia, Typography, Grid, Chip, Alert } from "@mui/material";
+import { Button, Card, CardActions, CardContent, Typography, Grid, Chip, Alert, CardHeader } from "@mui/material";
 import textsPages from 'src/constant/textsPages.json'
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const CardComponent = ({ project }: any) => {
   const [showMessage, setShowMessage] = useState<string>('')
@@ -15,35 +16,28 @@ const CardComponent = ({ project }: any) => {
   }
 
   return (
-      <Grid item xs={12} sm={12} md={4} lg={4}>
-        <Card sx={{ height: 545 }}>
-          {showMessage === '' && <CardMedia
-            component="img"
-            alt={project.alt}
-            height={project.size}
-            image={project.image}
-          />}
+      <Grid item key={project.title} xs={12} sm={6} md={4}>
+        <Card style={{ backgroundColor: '#333', color: '#fff' }}>
+          <CardHeader
+            avatar={<GitHubIcon style={{ color: '#fff' }} />}
+            title={<Typography variant="h6" style={{ color: '#fff' }}>{project.title}</Typography>}
+          />
           <CardContent>
+            <Typography variant="body2" style={{ color: '#ccc' }}>
+              {project.description || 'No description available'}
+            </Typography>
+            <hr />
+            {project.chips?.map((text: string) => <Chip style={{ margin: 2, color: '#fff' }} label={text} />)}
             {showMessage !== '' && <Alert severity="warning">{showMessage}</Alert>}
-            <Typography gutterBottom variant="h5" color='primary'>
-              {project.title}
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              {project.description}
-            </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small" color='secondary' onClick={() => isShowMessage(project.link_project, 'project')} href={project.link_project} target="_blank">
+            <Button size="small" color='secondary' style={{ color: '#fff' }} onClick={() => isShowMessage(project.link_project, 'project')} href={project.link_project} target="_blank">
               {textsPages.Projects.button_project}
             </Button>
-            <Button size="small" color='secondary' onClick={() => isShowMessage(project.github, 'repository')} href={project.github} target="_blank">
+            <Button size="small" color='secondary' style={{ color: '#fff' }} onClick={() => isShowMessage(project.github, 'repository')} href={project.github} target="_blank">
               {textsPages.Projects.button_git}
             </Button>
           </CardActions>
-          <hr />
-          <CardContent>
-            {project.chips?.map((text: string) => <Chip style={{ margin: 2 }} label={text} />)}
-          </CardContent>
         </Card>
       </Grid>
   )
