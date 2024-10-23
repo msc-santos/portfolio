@@ -9,8 +9,8 @@
   },
   "about": {
     "title": "About",
-    "text": "Hello, I am Marcos, i´m from Brazil. I'm 29 years old. I consider myself a dynamic and of easy relationship interpersonal, capable of a team job and fast learn, and job dedicated.",
-    "sub-text": "I like movies, musics and i play guittar, like soccer too, and love build new things."
+    "text": "Hi, I am Marcos, i´m from Brazil. I'm 29 years old.",
+    "sub-text": " have been a Software Engineer for 8 years, focused on different types of Web-oriented applications. I have worked in several companies with projects for Bakend, Frontend and Mobile, my central point of studies and knowledge is with the Backend, using technologies such as JavaScript and Java."
   },
   "skills": {
     "title": "Skills",
@@ -29,7 +29,7 @@
         "where": "FMU Natal, RN, Brazil"
       },
       {
-        "title": "Graduate in system analysis and developer",
+        "title": "Graduate in Computer Analysis and Networks",
         "date": "2014 - 2016",
         "where": "Estácio Natal, RN, Brazil"
       }
@@ -39,24 +39,29 @@
     "title": "Experiences",
     "values": [
       {
+        "title": "Software engineer",
+        "date": "2023 - Moment",
+        "where": "since June 26th 2023 up to at the moment"
+      },
+      {
         "title": "Frontend developer",
-        "date": "2022 - moment",
-        "where": " since may 5th, 2022 up to at the moment"
+        "date": "2022 - 2023",
+        "where": "at the Samba Digital company from may 5th 2022 up to june 20th 2023"
       },
       {
         "title": "Full Stack developer",
         "date": "2020 - 2022",
-        "where": "at the Grupo Morada company from July 20th, 2020 up to April 29th, 2022"
+        "where": "at the Grupo Morada company from july 20th 2020 up to april 29th 2022"
       },
       {
         "title": "Full Stack developer",
         "date": "2018 - 2020",
-        "where": "at the Economy Software company from December 10th, 2018 up to January 24th, 2020"
+        "where": "at the Economy Software company from december 10th 2018 up to january 24th 2020"
       },
       {
         "title": "Junior programmer and It Support",
         "date": "2016 - 2018",
-        "where": "at the Grupo Morada company from October 17th, 2016 up to October 05th, 2018"
+        "where": "at the Grupo Morada company from october 17th 2016 up to october 05th 2018"
       }
     ]
   },
