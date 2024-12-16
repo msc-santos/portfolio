@@ -1,15 +1,11 @@
 import { Container, Grid, useTheme } from "@mui/material";
 
 import ParticlesComponent from "src/components/Particles";
-import Header from "src/components/Header";
 import DrawerComponent from "src/components/Drawer";
 
 import Home from "src/pages/Home";
 import About from "src/pages/About";
 import Skills from "src/pages/Skills";
-import Education from "src/pages/Education";
-import Experiences from "src/pages/Experiences";
-import Projects from "src/pages/Projects";
 import TalkToMe from "src/pages/TalkToMe";
 import Modal from "src/components/Modal";
 import GitHubProjects from "./pages/GithubProjects";
@@ -24,15 +20,11 @@ function App() {
             <ParticlesComponent />
           </div>
           <div className='grid-app-content'>
-              <Header />
               <DrawerComponent />
               <Home />
               <Container>
                 <About />
                 <Skills />
-                <Education />
-                <Experiences />
-                <Projects />
                 <GitHubProjects />
                 <TalkToMe />
               </Container>
